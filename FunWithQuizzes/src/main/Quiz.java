@@ -2,6 +2,7 @@ package main;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+
 public class Quiz {
     //Class Variables
     ArrayList<Question> questions = new ArrayList<>();
@@ -13,6 +14,10 @@ public class Quiz {
         
     }
     //Methods
+        //getter
+    public ArrayList<Question> getQuestions() {
+        return this.questions;
+    }
     public void addQuestion(Question question) {
         this.questions.add(question);
     }

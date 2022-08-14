@@ -13,6 +13,13 @@ public class LinearScaleQuestion extends Question{
     }
 
     //Methods
+       //getter
+    public int getLowValue() {
+        return this.lowValue;
+    }
+    public int getHighValue(){
+        return this.highValue;
+    }
     @Override
     public boolean checkAnswer(String answer) {
         int answerAsInt = Integer.parseInt(answer);
